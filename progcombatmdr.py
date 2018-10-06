@@ -22,11 +22,11 @@ def turnright(k=50):
   d.turn(-k)
   sleep(3)
   g.turn(0)
-  d.turn(0
+  d.turn(0)
 
 def moulin(k=70):
     m.turn(k)
 
-def arrete()
+def arrete():
     g.turn(0)
     d.turn(0)
