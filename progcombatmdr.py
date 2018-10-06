@@ -13,14 +13,14 @@ def reculer(k=50):
 def turnleft(k=50):
   g.turn(k)
   d.turn(k)
-  sleep(3)
+  sleep(0.5)
   g.turn(0)
   d.turn(0)
 
 def turnright(k=50):
   g.turn(-k)
   d.turn(-k)
-  sleep(3)
+  sleep(0.5)
   g.turn(0)
   d.turn(0)
 
@@ -30,7 +30,3 @@ def moulin(k=70):
 def arrete():
     g.turn(0)
     d.turn(0)
-
-avancer()
-sleep(3)
-arrete()
