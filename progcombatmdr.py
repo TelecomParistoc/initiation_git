@@ -4,31 +4,31 @@ g=AX12(176)
 d=AX12(175)
 m=AX12(173)
 
-def avancer(k=50):
+def av(k=50):   #avancer
   g.turn(k)
   d.turn(-k)
 def reculer(k=50):
   avancer(-k)
 
-def turnleft(k=70):
+def l(k=70):   #tourner a gauche
   g.turn(-k)
   d.turn(-k)
   sleep(0.5)
   g.turn(0)
   d.turn(0)
 
-def turnright(k=70):
+def r(k=70):  #tourner a droite
   g.turn(k)
   d.turn(k)
   sleep(0.5)
   g.turn(0)
   d.turn(0)
 
-def moulin(k=70):
+def mol(k=70):  #moulin
     m.turn(k)
-def stopmoulin(k=70):
+def smol(k=70): #stop moulin
     m.turn(0)
 
-def arrete():
+def stop():  #stop la voiture
     g.turn(0)
     d.turn(0)
