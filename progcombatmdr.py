@@ -30,3 +30,7 @@ def moulin(k=70):
 def arrete():
     g.turn(0)
     d.turn(0)
+
+avancer()
+sleep(3)
+arrete()
